@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Entities\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="IKafka\" />
+    <Folder Include="Messages\" />
+    <Folder Include="Messages\Commands\" />
+    <Folder Include="Messages\Events\" />
+    <Folder Include="IRepositories\" />
+    <Folder Include="Validation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+  </ItemGroup>
+</Project>
